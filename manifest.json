@@ -1,7 +1,7 @@
 {
   "domain": "bond",
   "name": "Bond",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/bond",
   "requirements": ["bond-api==0.1.15"],
