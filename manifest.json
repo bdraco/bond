@@ -1,13 +1,13 @@
 {
   "domain": "bond",
   "name": "Bond",
+  "version": "0.1.22",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/bond",
-  "requirements": ["bond-api==0.1.18"],
-  "version": "0.1.18",
+  "requirements": ["bond-async==0.1.22"],
   "zeroconf": ["_bond._tcp.local."],
   "codeowners": ["@bdraco", "@prystupa", "@joshs85", "@marciogranzotto"],
   "quality_scale": "platinum",
   "iot_class": "local_push",
-  "loggers": ["bond_api"]
+  "loggers": ["bond_async"]
 }
